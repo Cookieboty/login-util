@@ -1,0 +1,31 @@
+# Distribution directory
+
+# Dependency directories
+/node_modules/
+/thirdPlugins/
+
+# Optional npm cache directory
+.npm
+
+# OS temps
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+.idea
+
+# Optional REPL history
+.node_repl_history
+
+# yarn
+yarn.lock
+
+package-lock.json
+
+*.wxss
+
+/src/app.json
+
+/src/constant/router.config.js

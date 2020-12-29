@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no,viewport-fit=cover"/>
+    <title>登录</title>
+  </head>
+  <body style="margin: 0;"><script  src="js/login.js"></script>
+</body>
+  <script type="text/javascript" src="./js/login.js"></script>
+  <script>
+    Login.init({
+      imgUrl: {
+        loginImgStart: true,
+        loginImgUrl: "https://mirror-gold-cdn.xitu.io/168e088524247c4bcc7?imageView2/1/w/180/h/180/q/85/format/webp/interlace/1",
+        loginImgStyleWidth: "130px",
+        loginImgStyleHeight: "130px"
+      },
+      agreement: {
+        start: true,
+        serverUrl: '',
+        privacyUrl: ''
+      },
+      close: true,
+      success() {
+        console.log('success')
+      },
+      error() {
+        console.log('error')
+      },
+      dataStorage: {
+        storage: 'localStorage'
+      }
+    })
+  </script>
+</html>
